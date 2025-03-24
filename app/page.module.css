@@ -35,23 +35,3 @@
 .gridItem:hover img {
   transform: scale(1.05);
 }
-
-@media (max-width: 1024px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .gridItem {
-    height: 200px;
-  }
-}
-
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .gridItem {
-    height: 150px;
-  }
-}
