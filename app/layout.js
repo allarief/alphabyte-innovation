@@ -1,5 +1,6 @@
 import "./globals.css";
 import BannerSlider from './components/bannerslider';
+import Link from "next/link";
 
 export const metadata = {
   title: "Alphabyte Innovation",
@@ -13,14 +14,21 @@ export default function RootLayout({ children }) {
         <div className="flex-grow">
           <div className="navbar bg-white fixed top-0 w-full z-50">
             <div className="navbar-start">
-              <a className="text-2xl ml-4 text-black">ALPHABYTE in</a>
+            <img src="/logo.png" alt="Alphabyte Logo" className="h-10 w-10" />
+              <a className="text-2xl ml-1 text-black">ALPHABYTE in</a>
             </div>
             <div className="navbar-end">
-              <ul className="menu menu-horizontal text-black text-1xl px-1 font-bold my-2.5 mr-14">
-                <li className="mr-6"><a>Home</a></li>
-                <li className="mr-6"><a>Project</a></li>
-                <li className="mr-6"><a>About US</a></li>
-              </ul>
+            <ul className="menu menu-horizontal text-black text-1xl px-1 font-bold my-2.5 mr-14">
+            <li className="mr-6">
+              <Link href="/">Home</Link>
+            </li>
+           <li className="mr-6">
+             <Link href="/project">Project</Link>
+           </li>
+           <li className="mr-6">
+             <Link href="/about">About Us</Link>
+           </li>
+          </ul>
             </div>
           </div>
           <BannerSlider />

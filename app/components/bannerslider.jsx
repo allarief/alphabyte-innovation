@@ -33,9 +33,9 @@ const BannerSlider = () => {
     <div className={styles.bannerSlider}>
       <Slider {...settings}>
         <div className={styles.slide}>
-          <img src="/banner/banner1.jpg" alt="Banner 1" className={styles.bannerImage} />
+          <img src="/banner/banner1.png" alt="Banner 1" className={styles.bannerImage} />
         </div>
-        <div className={styles.slide}>
+        <div className={styles.slide}>a
           <img src="/banner/banner2.jpg" alt="Banner 2" className={styles.bannerImage} />
         </div>
         <div className={styles.slide}>
