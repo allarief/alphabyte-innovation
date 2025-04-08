@@ -3,21 +3,21 @@ import React from "react";
 const projects = [
   {
     id: 1,
-    title: "AI-Powered Chatbot",
-    description: "Developed an AI chatbot to enhance customer support efficiency.",
-    image: "/projects/chatbot.jpg",
+    title: "System",
+    description: "Developed an Software system for a local business.",
+    image: "/imageProject/project1.jpg",
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
-    description: "Built a scalable and secure online shopping platform.",
-    image: "/projects/ecommerce.jpg",
+    title: "Hardware",
+    description: "Repaired and upgraded hardware components for clients.",
+    image: "/imageProject/project2.jpg",
   },
   {
     id: 3,
-    title: "Cloud Management System",
-    description: "Designed a cloud-based solution for managing business operations.",
-    image: "/projects/cloud.jpg",
+    title: "Design",
+    description: "Created a modern design and user-friendly for a startup.",
+    image: "/imageProject/project3.jpg",
   },
 ];
 

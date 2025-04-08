@@ -1,5 +1,4 @@
 import "./globals.css";
-import BannerSlider from './components/bannerslider';
 import Link from "next/link";
 
 export const metadata = {
@@ -31,7 +30,6 @@ export default function RootLayout({ children }) {
           </ul>
             </div>
           </div>
-          <BannerSlider />
           <br></br>
           <br></br>
           {children}

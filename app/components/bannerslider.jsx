@@ -25,6 +25,7 @@ const BannerSlider = () => {
     autoplaySpeed: 3000,
   };
 
+  // Only render the slider after the component is mounted
   if (!isMounted) {
     return null;
   }
@@ -35,7 +36,7 @@ const BannerSlider = () => {
         <div className={styles.slide}>
           <img src="/banner/banner1.png" alt="Banner 1" className={styles.bannerImage} />
         </div>
-        <div className={styles.slide}>a
+        <div className={styles.slide}>
           <img src="/banner/banner2.jpg" alt="Banner 2" className={styles.bannerImage} />
         </div>
         <div className={styles.slide}>
@@ -44,6 +45,6 @@ const BannerSlider = () => {
       </Slider>
     </div>
   );
-}
+};
 
 export default BannerSlider;

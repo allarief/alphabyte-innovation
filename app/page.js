@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
+import BannerSlider from "./components/bannerslider"; // Import BannerSlider
 
 const cards = [
   {
@@ -29,6 +30,9 @@ const cards = [
 export default function Home() {
   return (
     <div className={styles.container}>
+      {/* Add BannerSlider at the top */}
+      <BannerSlider />
+
       <section style={{ padding: "50px 0", textAlign: "center", backgroundColor: "" }}>
         <Box
           sx={{
