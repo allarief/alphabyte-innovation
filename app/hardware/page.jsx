@@ -3,7 +3,9 @@ import React from 'react'
 const HardwarePage = () => {
   return (
     <div>
-      <h1>anjing</h1>
+        <h1>Hardware Services</h1>
+        <p>We provide expert hardware services, fast and reliable!</p>
+        <p>Contact us for more information.</p>
     </div>
   )
 }
