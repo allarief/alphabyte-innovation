@@ -35,8 +35,10 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
 }
 
 .flex-grow {
   flex-grow: 1;
 }
+
